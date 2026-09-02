@@ -138,5 +138,5 @@ The system translates a continuous risk score (0.0 to 1.0) into discrete, action
 - **`>0.65` — `block_cod`**: Red zone. High probability of return. Cash on Delivery is disabled; requires prepaid.
 
 ## License
-MIT License
+Apache License
 
