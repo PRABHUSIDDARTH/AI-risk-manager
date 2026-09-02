@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ML artifacts
+return-risk-scorer/ml/model.pkl
+return-risk-scorer/ml/model_version.txt
+
+# Data (generated)
+return-risk-scorer/data/*.csv
+
+# Database
+*.db
+*.sqlite
+
+# Frontend
+node_modules/
+return-risk-scorer/frontend/node_modules/
+return-risk-scorer/frontend/dist/
+return-risk-scorer/frontend/.vite/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
