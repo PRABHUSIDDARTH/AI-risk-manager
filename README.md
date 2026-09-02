@@ -24,7 +24,7 @@ A real-time machine learning system to predict the likelihood of e-commerce retu
            │                          │
    ┌───────▼──────┐          ┌────────▼────────┐
    │ sklearn GBC  │          │  Google Gemini  │
-   │  model.pkl   │          │  1.5 Flash      │
+   │  model.pkl   │          │  3.5 Flash      │
    │  (risk score)│          │  (explanation + │
    └──────────────┘          │   action)       │
            │                 └─────────────────┘
