@@ -62,45 +62,74 @@ export default function App() {
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         }}>
           {/* Brand */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <div style={{
+              width: '8px',
+              height: '8px',
+              borderRadius: '1px',
+              backgroundColor: 'var(--ledger-blue)',
+            }} />
             <span style={{
-              fontFamily: 'IBM Plex Mono, monospace',
-              fontWeight: 500,
+              fontFamily: 'IBM Plex Sans, sans-serif',
+              fontWeight: 600,
               fontSize: '13px',
-              color: 'var(--ledger-blue)',
-              letterSpacing: '-0.02em',
+              color: 'var(--ink)',
+              letterSpacing: '-0.01em',
             }}>
-              RP
+              Risk operations console
             </span>
             <span style={{
-              width: '1px', height: '16px',
+              width: '1px', height: '14px',
               background: 'var(--border)',
               display: 'inline-block',
             }} />
-            <span style={{ fontSize: '13.5px', fontWeight: 500, color: 'var(--ink)' }}>
-              Return risk scorer
+            <span style={{
+              fontFamily: 'IBM Plex Mono, monospace',
+              fontSize: '11px',
+              color: 'var(--slate)',
+            }}>
+              Return mitigation engine
             </span>
           </div>
 
-          {/* Meta tags */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          {/* Operational Status */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <span style={{
-              border: '1px solid var(--border)',
-              borderRadius: '2px',
-              padding: '2px 8px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
               fontSize: '11px',
               color: 'var(--slate)',
+              fontFamily: 'IBM Plex Mono, monospace',
             }}>
-              Razorpay Buildathon 2026
+              <span style={{
+                width: '6px',
+                height: '6px',
+                borderRadius: '50%',
+                backgroundColor: 'var(--allow-green)',
+                display: 'inline-block',
+              }} />
+              Connected
             </span>
             <span style={{
               border: '1px solid var(--border)',
               borderRadius: '2px',
               padding: '2px 8px',
               fontSize: '11px',
+              fontFamily: 'IBM Plex Mono, monospace',
               color: 'var(--slate)',
             }}>
-              AI Risk Manager
+              Model: GBC-v1
+            </span>
+            <span style={{
+              border: '1px solid var(--border)',
+              borderRadius: '2px',
+              padding: '2px 8px',
+              fontSize: '11px',
+              fontFamily: 'IBM Plex Mono, monospace',
+              color: 'var(--slate)',
+            }}>
+              Threshold: 0.30
             </span>
           </div>
         </div>
